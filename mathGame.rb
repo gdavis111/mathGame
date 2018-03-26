@@ -1,14 +1,3 @@
-# class Turn_manager
-#   deals with switching player turns
-#   stops game when one player loses all lives
-#
-
-# class Game
-
-# class Question
-#   generates random math questions
-#   checks answers
-
 require './questions.rb'
 require './player.rb'
 require './turnManager.rb'
@@ -49,7 +38,6 @@ class Game
       end
 
       question.ask
-      # answer = question.num1 + question.num2
       puts "\n"
       puts "#{current_turn_player.name}: What does #{question.num1} + #{question.num2} equal?"
       player_answer = gets.chomp.to_i

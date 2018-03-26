@@ -1,7 +1,4 @@
 require './mathGame.rb'
-require './player.rb'
-require './turnManager.rb'
-require './questions.rb'
 
 game = Game.new
 
